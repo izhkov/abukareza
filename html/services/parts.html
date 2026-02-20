@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="../../css/headerMini.css" />
+    <link rel="stylesheet" href="../../css/services__In.css" />
+    <link rel="stylesheet" href="../../css/footer.css" />
+    <link rel="stylesheet" href="../../css/popups.css" />
+    <link rel="stylesheet" href="../../css/form.css" />
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    <title>Промышленная компания Азбука Реза</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- -------------------------------------Header---------------------------- -->
+    <div class="otherContainer">
+      <header id="header" class="header mini">
+        <div class="header__inner">
+          <div class="contacts">
+            <div class="contacts__inner">
+              <p class="phone">
+                <a href="tel:+79126363812">+7 (912) 636-38-12</a>
+              </p>
+              <p class="phone">
+                <a href="tel:+79090031717">+7 (909) 003-17-17</a>
+              </p>
+              <p class="mail">
+                <a href="mailto:azbukareza@bk.ru">azbukareza@bk.ru</a>
+              </p>
+            </div>
+          </div>
+          <div class="header__logo">
+            <a href="../index.html"><img src="../../img/logo.png" alt="" /></a>
+          </div>
+          <div class="btn">
+            <a class="btn__call popup-link" href="#form">Заказать звонок</a>
+          </div>
+
+          <!-- <button class="burger" type="button" id="navToggle">
+                    <span class="burger__menu">Menu</span>
+                </button> -->
+        </div>
+      </header>
+
+      <div class="servicesIn">
+        <div class="container">
+          <div class="servicesIn__inner">
+            <div class="back__link__container">
+              <img class="arrow__left" src="../../img/left.png" alt="">
+
+              <a href="../index.html" class="back__link">На главную страницу</a>
+            </div>
+            <h2 class="general__title margin">Поставка<br>оригинальных запчастей</h2>
+            <div class="servicesIn__text">
+               <p><b>Постоянно расширяющаяся линейка из таких стран, как:</b><br>- Германия<br>- Британия<br>- КНР (Фукс, JCB)</p>
+            </div>
+            <div class="servicesIn__items">
+                <div class="servicesIn__item">
+                    <img src="../../img/servicesImg/parts/1.png" alt="">
+                </div>
+                <div class="servicesIn__item">
+                    <img src="../../img/servicesImg/parts/2.png" alt="">
+                </div>
+                <div class="servicesIn__item">
+                    <img src="../../img/servicesImg/parts/3.png" alt="">
+                </div>
+                <div class="servicesIn__item">
+                    <img src="../../img/servicesImg/parts/4.png" alt="">
+                </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <!--Footer
+=======================================================-->
+
+      <footer>
+        <div class="footer__inner">
+          <div class="footer__logo">
+            <a href="#"><img src="../../img/logo.png" alt="Logo" /></a>
+          </div>
+          <nav class="footer__nav" id="footer__nav">
+            <a class="footer__nav__link" href="../index.html">Главная</a>
+            <a class="footer__nav__link" href="../about.html">О компании</a>
+            <a class="footer__nav__link" href="../requisites.html" target="_blank">Реквизиты</a>
+            <a class="footer__nav__link" href="../gallery.html">Галерея</a>
+          </nav>
+          <div>
+          <p class="footer__text">ООО "Азбука Реза"</p>
+          <p class="footer__copyright">2025</p>
+        </div>
+        </div>
+      </footer>
+
+      <!--Form popup
+=======================================================-->
+
+    <div id="form" class="popup">
+      <div class="popup__body">
+        <div class="popup__content">
+          <div class="form">
+            <a href="#header" class="popup__close close-popup"
+              ><img src="../../img/close.png" alt=""
+            /></a>
+            <div class="container">
+              <div class="form__block">
+                <p class="form__subtitle">
+                  Введите данные, мы свяжемся в течение некоторого времени для
+                  уточнения деталей:
+                </p>
+                <div class="form_inner">
+                  <form action="">
+                    <div class="form_inner">
+                      <p>Введите Ваше имя:</p>
+                      <input type="text" placeholder="Введите имя" required />
+                      <p>Выберите удобный способ связи:</p>
+                      <div class="form_choice">
+                        <ul>
+                          <li class="telegram selected">Telegram</li>
+                          <li class="call">Звонок</li>
+                          <li class="email">Email</li>
+                        </ul>
+                      </div>
+                      <div class="phone__area">
+                        <p class="choice__area">Введите Ваш номер телефона:</p>
+                      <input type="tel" placeholder="+7 (___)-___-__-__" required/>
+                      </div>
+                      
+                      <div class="email__area">
+                        <p class="choice__area email">Введите Ваш Email:</p>
+                        <input type="email" placeholder="example@gmail.com"/>
+                      </div>
+                      
+                    </div>
+                    <div class="form_submit">
+                      <button type="submit" class="form_btn--send">
+                        Отправить
+                      </button>
+
+                      <button type="reset" class="form_btn--clear">
+                        Очистить
+                      </button>
+                    </div>
+                    <div class="policy_item">
+                      Отправляя заявку, Вы принимаете
+                      <a href="../policy.html" target="_blank"
+                        >Положение и<br />
+                        Согласие</a
+                      >
+                      на обработку персональных данных.
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+    <script src="https://unpkg.com/imask"></script>
+
+    <script src="../../js/index.js"></script>
+  </body>
+</html>

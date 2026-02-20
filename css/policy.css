@@ -1,0 +1,22 @@
+footer {
+  margin-top: auto;
+}
+
+.policy__text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333333;
+  padding: 20px 50px;
+}
+
+.policy__inner {
+  margin-bottom: 50px;
+}
+
+.general__title .margin {
+  padding-top: 300px;
+}
+
+.policy__text.center {
+  text-align: center;
+}
