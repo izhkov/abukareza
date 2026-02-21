@@ -112,5 +112,9 @@
         font-size: 18px;
     }
 
+    .item__img a {
+        max-width: 300px;
+    }
+
     
 }
